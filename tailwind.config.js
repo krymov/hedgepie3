@@ -11,29 +11,13 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
 });
 
 module.exports = {
-  purge: {
-    enabled: process.env.HUGO_ENVIRONMENT === "production",
-    content: [
-      // path.resolve(__dirname) + "/layouts/**/*.html",
-      "./hugo_stats.json",
-      "./themes/launchist-theme/layouts/**/*.html",
-      // "./content/**/*.md",
-      // "./content/**/*.html",
-    ],
-    extractors: [
-      {
-        extractor: (content) => {
-          let els = JSON.parse(content).htmlElements;
-          return els.tags.concat(els.classes, els.ids);
-        },
-        extensions: ["json"],
-      },
-    ],
-    mode: "all",
-    options: {
-      keyframes: true,
-    },
-  },
+  content: [
+    // path.resolve(__dirname) + "/layouts/**/*.html",
+    "./hugo_stats.json",
+    "./themes/launchist-theme/layouts/**/*.html",
+    // "./content/**/*.md",
+    // "./content/**/*.html",
+  ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
     letterSpacing: {

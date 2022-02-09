@@ -4,9 +4,11 @@
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.1",
     "autoprefixer": "^10.4.0",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.4",
     "prettier": "^2.5.1",
     "prettier-plugin-go-template": "^0.0.11",
+    "rimraf": "^3.0.2",
     "tailwindcss": "^3.0.19"
   },
   "dependencies": {
@@ -24,9 +26,14 @@
   "version": "1.0.0",
   "main": "hugo.js",
   "scripts": {
-    "build": "node hugo.js && hugo --gc",
-    "vercel-build": "./vercel-submodule-workaround.sh && node hugo.js && hugo -D --gc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf public && rimraf ./themes/twjit/assets/css/index/css",
+    "start": "TAILWIND_MODE=watch NODE_ENV=development npm-run-all clean prelim:twcss --parallel dev:*",
+    "build": "NODE_ENV=production npm-run-all clean prelim:twcss prod:*",
+    "prelim:twcss": "./node_modules/tailwindcss/lib/cli.js -i ./themes/hedgepie/assets/css/main.css -o ./themes/hedgepie/assets/css/index.css --jit",
+    "dev:twcssw": "./node_modules/tailwindcss/lib/cli.js -i ./themes/hedgepie/assets/css/main.css -o ./themes/hedgepie/assets/css/index.css --jit -w",
+    "dev:hugo": "hugo server",
+    "prod:twcss": "./node_modules/tailwindcss/lib/cli.js -i ./themes/twjit/assets/css/tw.css -o ./themes/twjit/assets/css/index.css --jit --minify",
+    "prod:hugo": "hugo --gc --minify"
   },
   "repository": {
     "type": "git",
