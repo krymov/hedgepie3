@@ -11,6 +11,8 @@ form:
     other: Subscribe Email
   email:
     other: Email
+  phone:
+    other: Phone
   web:
     other: Website
   country:
