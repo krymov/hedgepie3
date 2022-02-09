@@ -1,0 +1,84 @@
+cloudinaryName="dalyoko"
+description = "Lemonaid, супер маркетинг"
+cloudinary_base_url ="https://res.cloudinary.com/dalyoko/" # with trailing slash
+
+keywords = ["интернет-маркетинг, SEO продвижение, SEO-маркетинг, разработка сайтов, дизайн"]
+
+# Default AMP components for the whole site
+ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
+
+
+
+
+
+[header]
+primary-button-text="Connect Wallet"
+primary-button-href="/#"
+
+[hero]
+title = "Stake. Earn. Win."
+subtitle = "Stake to earn rewards while entering for a chance to win the Jackpot!"
+img="https://res.cloudinary.com/dalyoko/f_auto,w_482/hedgepie/Asset_2landscape.png"
+imgAlt=""
+# img="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd20-50-17-gloy_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=c6872a7254a79eaef9ecb49793ad4067"
+logo=""
+subscribe=""
+buttonText="Connect Wallet"
+
+[brand]
+logo="https://res.cloudinary.com/dalyoko/f_auto,h_71/hedgepie/Asset_3landscape.png"
+name="HedgePie"
+slogan = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus molestie eu purus vel massa tristique diam cursus. Ut nunc consectetur penatib."
+
+
+[features]
+title="Choose your path"
+subtitle="Get your piece of the pie"
+
+[[features.feature]]
+img="https://res.cloudinary.com/dalyoko/image/upload/v1644332754/hedgepie/piggylandscape_1.png"
+iconFile="icons-outline/chart-bar"
+icon=""
+color="curiousBlue"
+title="Earn Up to XX% APY"
+description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat turpis mauris nunc sit placerat ullamcorper v"
+href=""
+
+[[features.feature]]
+img="https://res.cloudinary.com/dalyoko/image/upload/v1644332754/hedgepie/pielandscape_1.png"
+iconFile="icons-outline/search-circle"
+icon=""
+color="salomie"
+title="Create Your Own Fund"
+description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat turpis mauris nunc sit placerat ullamcorper v"
+href=""
+
+[[features.feature]]
+img="https://res.cloudinary.com/dalyoko/image/upload/v1644332754/hedgepie/ticketslandscape_1.png"
+iconFile="icons-outline/pencil-alt"
+icon=""
+color="darkishPink"
+title="Enter the Lottery"
+description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat turpis mauris nunc sit placerat ullamcorper v"
+href=""
+
+
+[blockFirst]
+img="https://res.cloudinary.com/dalyoko/f_auto,w_400/hedgepie/Asset_1landscape.png"
+title="Choose your path."
+description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites"
+buttonText="Connect Wallet"
+
+[blockSecond]
+img="https://res.cloudinary.com/dalyoko/f_auto,w_500,h_500/hedgepie/block2-2x.png"
+title="Collect Winnings."
+description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites"
+buttonText="Connect Wallet"
+
+[socials]
+twitter="#"
+linkedIn="#"
+facebook="#"
+
+
+

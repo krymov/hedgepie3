@@ -1,0 +1,71 @@
+<!-- This example requires Tailwind CSS v2.0+ -->
+  <div class="bg-hero-pattern bg-cover">
+
+<header class="">
+  <nav class="max-w-7xl mx-auto " aria-label="Top">
+    
+    <div
+      class="
+        w-full
+        py-6
+        flex
+        items-center
+        justify-around
+        border-b border-primary-500
+        lg:border-none
+      "
+    >
+      {{ with .Site.Params.brand }}
+        {{$logoURL := .logo }}
+          <div class="mr-3 text-3xl">
+            <a href="/">
+              <span class="sr-only">{{ .Site.Params.brand }}</span>
+              <img alt="logo" src="{{ $logoURL }}" />
+            </a>
+          </div>
+
+
+      <div class="ml-20 flex items-center">
+        {{ end }}
+        <div class="hidden ml-80 space-x-8 lg:block">
+          {{ range .Site.Menus.main }}
+            <a
+              class="text-base font-medium text-darkElegance hover:text-bleuDeFrance"
+              href="{{ .URL }}"
+              >{{ .Name }}</a
+            >
+          {{ end }}
+        </div>
+      </div>
+      <div class="ml-10 space-x-4">
+        <a
+          href="#"
+          class="
+            inline-block
+            bg-white
+            px-12
+            py-4
+            border border-curiousBlue
+            rounded-3xl
+            text-base
+            font-medium
+            text-curiousBlue
+            hover:bg-primary-50
+          "
+          >Connect Wallet ⭢</a
+        >
+      </div>
+    </div>
+    <div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
+      {{ range .Site.Menus.main }}
+        <a
+          href="{{ .URL }}"
+          class="text-base font-medium text-black hover:text-primary-50"
+        >
+          {{ .Name }}
+        </a>
+      {{ end }}
+
+    </div>
+  </nav>
+</header>

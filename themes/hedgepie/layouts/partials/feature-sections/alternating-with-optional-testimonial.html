@@ -1,0 +1,163 @@
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-white pt-16 pb-32 overflow-hidden">
+
+  <div class="mt-24">
+    <div
+      class="
+        lg:mx-auto
+        lg:max-w-7xl
+        lg:px-8
+        lg:grid
+        lg:grid-cols-2
+        lg:grid-flow-col-dense
+        lg:gap-24
+      "
+    >
+      <div
+        class="
+          px-4
+          max-w-xl
+          mx-auto
+          sm:px-6
+          lg:max-w-none
+          lg:mx-0
+          lg:px-0
+          lg:col-start-2
+        "
+      >
+      {{ with .Site.Params.blockFirst }}
+        <div>
+          <div class="mt-6">
+            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900">
+              {{.title}}
+            </h2>
+            <p class="mt-4 text-sm leading-16 text-gray-500">
+              {{.description}}
+            </p>
+            <div class="mt-6">
+              <a
+                href="#"
+                class="
+                  inline-flex
+                  px-12
+                  py-4
+                  border border-transparent
+                  text-base
+                  font-medium
+                  rounded-3xl
+                  shadow-sm
+                  text-white
+                  bg-curiousBlue
+                  hover:bg-bleuDeFrance
+                "
+              >
+                {{.buttonText}} ⭢
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+        <div
+          class="
+            pr-4
+            mx-auto
+            sm:pr-6
+            md:-ml-16
+            lg:px-0 lg:m-0 lg:relative
+          "
+        >
+          <img
+            class="mx-auto
+            "
+            src="{{.img}}"
+            alt=""
+          />
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+    <div class="relative">
+    <div
+      class="
+      mt-24
+        lg:mx-auto
+        lg:max-w-7xl
+        lg:px-8
+        lg:grid
+        lg:grid-cols-2
+        lg:grid-flow-col-dense
+        lg:gap-24
+      "
+    >
+      <div
+        class="
+          pl-12
+          max-w-sm
+          mx-auto
+          sm:px-6
+          lg:max-w-none lg:mx-0 lg:px-0
+        "
+      >
+
+        {{ with .Site.Params.blockSecond }}
+        <div class="mx-auto px-8 ">
+          <div class="mt-6">
+            <h2 class="text-4xl
+          font-extrabold
+          text-gray-900 tracking-tight ">
+              {{.title}}
+            </h2>
+            <p class="mt-4 text-sm leading-16 text-gray-500">
+              {{.description}}
+            </p>
+            <div class="mt-6">
+              <a
+                href="#"
+                class="
+            inline-block
+            bg-white
+            px-12
+            py-4
+            border border-curiousBlue
+            rounded-3xl
+            text-base
+            font-medium
+            text-curiousBlue
+            hover:bg-primary-50
+                "
+              >
+                {{.buttonText}} ⭢
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="mt-12 sm:mt-16 lg:mt-0">
+        <div
+          class="
+            pl-4
+            -mr-48
+            sm:pl-6
+            md:-mr-16
+            lg:px-0 lg:m-0 lg:relative lg:h-full
+          "
+        >
+          <img
+            class="
+              w-f
+              lg:absolute lg:left-0 lg:max-w-xl lg:max-w-none
+            "
+            src="{{.img}}"
+            width="400"
+            alt=""
+          />
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</div>
