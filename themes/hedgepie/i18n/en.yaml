@@ -8,11 +8,9 @@ form:
   company:
     other: Company
   subscribeEmail:
-    other: Введите свою почту
+    other: Subscribe Email
   email:
     other: Email
-  phone:
-    other: Phone
   web:
     other: Website
   country:
