@@ -22,7 +22,7 @@
     "postcss-import": "^14.0.2",
     "tailwind-colors": "^1.1.0"
   },
-  "name": "launchist-3",
+  "name": "@hedgepie/ui-marketing",
   "version": "1.0.0",
   "main": "hugo.js",
   "scripts": {
