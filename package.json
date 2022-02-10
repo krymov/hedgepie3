@@ -26,13 +26,13 @@
   "version": "1.0.0",
   "main": "hugo.js",
   "scripts": {
-    "clean": "rimraf public && rimraf ./themes/twjit/assets/css/index/css",
+    "clean": "rimraf public && rimraf ./themes/hedgepie/assets/css/index/css",
     "start": "TAILWIND_MODE=watch NODE_ENV=development npm-run-all clean prelim:twcss --parallel dev:*",
     "build": "NODE_ENV=production npm-run-all clean prelim:twcss prod:*",
     "prelim:twcss": "./node_modules/tailwindcss/lib/cli.js -i ./themes/hedgepie/assets/css/main.css -o ./themes/hedgepie/assets/css/index.css --jit",
     "dev:twcssw": "./node_modules/tailwindcss/lib/cli.js -i ./themes/hedgepie/assets/css/main.css -o ./themes/hedgepie/assets/css/index.css --jit -w",
     "dev:hugo": "hugo server",
-    "prod:twcss": "./node_modules/tailwindcss/lib/cli.js -i ./themes/hedgepie/assets/css/main.css -o ./themes/twjit/assets/css/index.css --jit --minify",
+    "prod:twcss": "./node_modules/tailwindcss/lib/cli.js -i ./themes/hedgepie/assets/css/main.css -o ./themes/hedgepie/assets/css/index.css --jit --minify",
     "prod:hugo": "hugo --gc --minify"
   },
   "repository": {
