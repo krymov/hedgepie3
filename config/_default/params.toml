@@ -1,15 +1,11 @@
 cloudinaryName="dalyoko"
-description = "Lemonaid, супер маркетинг"
+description = "Discover and profit from expert-designed DeFi strategies that will manage and rebalance on your behalf to optimize yield for everyone!"
 cloudinary_base_url ="https://res.cloudinary.com/dalyoko/" # with trailing slash
 
-keywords = ["интернет-маркетинг, SEO продвижение, SEO-маркетинг, разработка сайтов, дизайн"]
+keywords = ["hedgefund", "defi", "strategy", "yield bearing NFT"]
 
 # Default AMP components for the whole site
 ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
-
-
-
-
 
 [header]
 primary-button-text="Connect Wallet"
@@ -29,7 +25,6 @@ buttonText="Connect Wallet"
 logo="https://res.cloudinary.com/dalyoko/f_auto,h_71/hedgepie/Asset_3landscape.png"
 name="HedgePie"
 slogan = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus molestie eu purus vel massa tristique diam cursus. Ut nunc consectetur penatib."
-
 
 [features]
 title="Choose your path"
@@ -79,6 +74,4 @@ buttonText="Connect Wallet"
 twitter="#"
 linkedIn="#"
 facebook="#"
-
-
 

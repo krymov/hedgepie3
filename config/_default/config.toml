@@ -8,8 +8,6 @@ copyright="@ 2022 HedgePie"
 cloudinaryName="dalyoko"
 #landing page
 
-
-
 [author]
   [author.default]
     name = "Иван Петров"
@@ -53,7 +51,6 @@ cloudinaryName="dalyoko"
 [taxonomies]
     tag = "tags"
 
-
 [build]
   writeStats = true
 
@@ -82,7 +79,6 @@ cloudinaryName="dalyoko"
   isHTML = false
   noUgly = true
   permalinkable = false
-
 
 [markup]
 [markup.goldmark]
