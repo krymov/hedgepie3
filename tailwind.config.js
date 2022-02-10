@@ -1,4 +1,3 @@
-const path = require("path");
 const colors = require("tailwindcss/colors");
 const typography = require("@tailwindcss/typography");
 
@@ -12,11 +11,10 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
 
 module.exports = {
   content: [
-    // path.resolve(__dirname) + "/layouts/**/*.html",
     "./hugo_stats.json",
     "./themes/launchist-theme/layouts/**/*.html",
-    // "./content/**/*.md",
-    // "./content/**/*.html",
+    "./themes/hedgepie/layouts/**/*.html",
+    "./themes/hedgepie/**/*.html",
   ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
