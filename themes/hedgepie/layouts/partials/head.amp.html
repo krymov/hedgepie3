@@ -83,7 +83,7 @@
     />
   {{- end }}
 
-  {{ $styles := resources.Get "css/main.css" | postCSS }}
+  {{ $styles := resources.Get "css/index.css" | postCSS }}
   {{ if .Site.IsServer }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
   {{ else }}

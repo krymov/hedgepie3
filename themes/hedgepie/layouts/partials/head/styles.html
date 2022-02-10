@@ -1,5 +1,5 @@
 <style amp-custom>
-  {{ with resources.Get "css/main.css" | resources.postCSS | resources.Minify | resources.PostProcess}}
+  {{ with resources.Get "css/index.css" | resources.postCSS | resources.Minify | resources.PostProcess}}
       {{ .Content | safeCSS }}
   {{ end }}
   {{ if resources.Get "css/custom.css" }}
