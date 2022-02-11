@@ -1,5 +1,5 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="bg-hero-pattern bg-cover">
+  <div class="bg-hero-pattern bg-cover px-10">
 
 <header class="">
   <nav class="max-w-7xl mx-auto " aria-label="Top">
@@ -11,7 +11,7 @@
         flex
         items-center
         justify-around
-        border-b border-primary-500
+        border-b border-curiousBlue
         lg:border-none
       "
     >
@@ -25,7 +25,7 @@
           </div>
 
 
-      <div class="ml-20 flex items-center">
+      <div class="ml-10 flex items-center">
         {{ end }}
         <div class="hidden ml-80 space-x-8 lg:block">
           {{ range .Site.Menus.main }}
@@ -37,7 +37,7 @@
           {{ end }}
         </div>
       </div>
-      <div class="ml-10 space-x-4">
+      <div class="ml-5 space-x-4">
         <a
           href="#"
           class="

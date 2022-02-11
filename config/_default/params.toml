@@ -24,7 +24,7 @@ buttonText="Connect Wallet"
 [brand]
 logo="https://res.cloudinary.com/dalyoko/f_auto,h_71/hedgepie/Asset_3landscape.png"
 name="HedgePie"
-slogan = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus molestie eu purus vel massa tristique diam cursus. Ut nunc consectetur penatib."
+slogan = "Hedge Pie is an innovative decentralized trading platform that allows users to generate funds that others can invest in."
 
 [features]
 title="Your piece of the Pie"
