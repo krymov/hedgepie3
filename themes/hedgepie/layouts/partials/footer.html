@@ -1,12 +1,11 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <footer class="bg-haiti" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
-  <div class="max-w-7xl mx-auto py-12 grid-cols-2 px-4 sm:px-6 lg:py-16 lg:px-8">
+  <div class="max-w-7xl mx-auto py-12 grid-cols-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     
-    <div class="flex justify-between">
-      <div class="w-1/3">
-
-      {{ with .Site.Params.brand }}
+    <div class="grid grid-cols-12">
+      <div class="col-span-12 pb-6 md:col-span-4 md:col-start-1">
+              {{ with .Site.Params.brand }}
         {{$logoURL := .logo }}
         {{$slogan := .slogan}}
 
@@ -47,14 +46,10 @@
               <path d="M23.7433 15.1304C21.9901 15.1304 21.2045 16.0939 20.7654 16.7714V15.3637H17.4611V25.3048H20.7653V19.7532C20.7653 19.4561 20.7868 19.1594 20.8741 18.9469C21.1129 18.3533 21.6566 17.7385 22.5694 17.7385C23.765 17.7385 24.2433 18.6502 24.2433 19.9866V25.3048H27.5473V19.6047C27.5473 16.5512 25.9171 15.1304 23.7433 15.1304Z" fill="#16103A"/>
               </svg>
           </a>
-
-
-        </div>
       </div>
+    </div>
 
-
-      <div>
-      <div class="mt-12 w-max-lg w-80 gap-8 xl:mt-0 col-end-1 ">
+      <div class="col-span-12 pb-6 md:col-span-3 md:col-start-9">
         {{ range $index, $element :=.Site.Menus.footer }} 
           <div>
             <h3
@@ -83,30 +78,24 @@
           </div>
        {{ end }}
       </div>
+</div>
 
+  <div class="mt-12 border-t border-gray-200 pt-8">
+    <div class="grid grid-cols-12">
+      <div class="col-span-12 md:col-span-4 md:col-start-1">
+              <p class="text-base text-gray-400">
+        {{ .Site.Copyright}}
+      </p>
+      </div>
 
-  </div>
+    <!-- another column -->
+    <div class="col-span-12 md:col-start-9 md:col-span-3">
+      <a class="text-base pr-4 font-medium block lg:inline text-gray-500 hover:text-curiousBlue">Privacy policy</a>
+      <a class="text-base pr-4 font-medium block lg:inline text-gray-500 hover:text-curiousBlue">Terms & Conditions</a>
+    </div>
+</div>
+
 </div>
 
 
-
-
-
-
-    <div class="grid-cols-2">
-
-      <div class="space-y-8 col-span-1">
-
-  </div>
-  <div class="mt-12 flex justify-between border-t border-gray-200 pt-8">
-    <div>
-      <p class="text-base text-gray-400 xl:text-center">
-        {{ .Site.Copyright}}
-      </p>
-    </div>
-    <div class="w-80">
-      <a class="text-base pr-4 font-medium text-gray-500 hover:text-curiousBlue">Privacy policy</a>
-      <a class="text-base pr-4 font-medium text-gray-500 hover:text-curiousBlue">Terms & Conditions</a>
-    </div>
-    </div>
 </footer>

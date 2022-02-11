@@ -12,8 +12,8 @@ primary-button-text="Connect Wallet"
 primary-button-href="/#"
 
 [hero]
-title = "Stake. Earn. Win."
-subtitle = "Stake to earn rewards while entering for a chance to win the Jackpot!"
+title = "Stake. Earn up to XX% APY. Win."
+subtitle = "Get access to the highest returns in crypto and enter for a chance to win big when you invest!"
 img="https://res.cloudinary.com/dalyoko/f_auto,w_482/hedgepie/Asset_2landscape.png"
 imgAlt=""
 # img="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd20-50-17-gloy_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=c6872a7254a79eaef9ecb49793ad4067"
@@ -27,8 +27,8 @@ name="HedgePie"
 slogan = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus molestie eu purus vel massa tristique diam cursus. Ut nunc consectetur penatib."
 
 [features]
-title="Choose your path"
-subtitle="Get your piece of the pie"
+title="Your piece of the Pie"
+subtitle="Choose your path"
 
 [[features.feature]]
 img="https://res.cloudinary.com/dalyoko/image/upload/v1644332754/hedgepie/piggylandscape_1.png"
@@ -36,7 +36,7 @@ iconFile="icons-outline/chart-bar"
 icon=""
 color="curiousBlue"
 title="Earn Up to XX% APY"
-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat turpis mauris nunc sit placerat ullamcorper v"
+description="Access higher returns when you invest in funds that dominate the Hedge Pie leaderboard"
 href=""
 
 [[features.feature]]
@@ -45,7 +45,7 @@ iconFile="icons-outline/search-circle"
 icon=""
 color="salomie"
 title="Create Your Own Fund"
-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat turpis mauris nunc sit placerat ullamcorper v"
+description="Earn more when you combine your assets into high-yielding funds that others can invest in"
 href=""
 
 [[features.feature]]
@@ -54,20 +54,20 @@ iconFile="icons-outline/pencil-alt"
 icon=""
 color="darkishPink"
 title="Enter the Lottery"
-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat turpis mauris nunc sit placerat ullamcorper v"
+description="Receive automatic entries into the weekly Hedge Pie lottery when you stake using the platform"
 href=""
 
 
 [blockFirst]
 img="https://res.cloudinary.com/dalyoko/f_auto,w_400/hedgepie/Asset_1landscape.png"
-title="Choose your path."
-description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites"
+title="Your fund. Your Profit."
+description="At Hedge Pie, users can earn higher returns on already winning assets by combining them together into a fund that others can invest in. Choose your stake positions, set your fees, & earn. Top performing funds are tracked on the Hedge Pie leaderboard, so when funds perform well, investors follow. Think you have what it takes? Connect your wallet, choose your stake positions, & start earning."
 buttonText="Connect Wallet"
 
 [blockSecond]
 img="https://res.cloudinary.com/dalyoko/f_auto,w_500,h_500/hedgepie/block2-2x.png"
 title="Collect Winnings."
-description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites"
+description="Users who stake with Hedge Pie are automatically entered into the weekly lottery and a chance at 10% of total platform trading profits. That’s right! No more buying tickets. On Hedge Pie, investors are automatically entered into the weekly lottery where 10% of the total platform trading profits generated are redistributed to winners. Join now to get your piece of the pie."
 buttonText="Connect Wallet"
 
 [socials]
