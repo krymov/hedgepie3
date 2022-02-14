@@ -15,7 +15,7 @@
   ```
 -->
 <div class="pb-8 sm:pb-12 lg:pb-12">
-  <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
+  <div class="pt-8 sm:pt-12 lg:relative lg:py-48">
     <div
       class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24"
     >
@@ -27,17 +27,17 @@
             alt="Workflow"
           />
         </div> -->
-        <div class="mt-20">
-          <div class="mt-6 sm:max-w-xl">
+        <div class="">
+          <div class="sm:max-w-xl">
             {{ with .Site.Params.hero }}
             <h1
-              class="text-8xl font-extrabold text-gray-900 tracking-tight sm:text-8xl"
+              class="text-7xl font-extrabold text-gray-900 tracking-tight sm:text-7xl"
             >
               {{ .title }}
             </h1>
-            <p class="mt-6 text-xl text-gray-500">{{ .subtitle }}</p>
+            <p class="mt-8 text-xl text-gray-500">{{ .subtitle }}</p>
           </div>
-            <div class="mt-6">
+            <div class="mt-12">
               <a
                 href="#"
                 class="
@@ -47,7 +47,7 @@
                   border border-transparent
                   text-base
                   font-medium
-                  rounded-3xl
+                  rounded-full
                   shadow-sm
                   text-white
                   bg-curiousBlue
@@ -141,8 +141,8 @@
       >
         <div class="hidden sm:block">
 
-          <div class="absolute top-8 right-1 lg:m-0 lg:left-8 coin-pattern" width="190" height="400">
-            <img src="https://res.cloudinary.com/dalyoko/hedgepie/Frame_1000002141.png" alt="">
+          <div class="absolute top-8 right-1 lg:m-0 lg:left-8 coin-pattern">
+            <img src="https://res.cloudinary.com/dalyoko/h_900/hedgepie/Frame_1000002141.png" alt="">
           </div>
 <!--           <svg
             class="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0"
@@ -178,7 +178,8 @@
         <div
           class="relative pt-32 sm:mx-auto sm:max-w-2xl sm:px-0 lg:max-w-xl  lg:pl-12"
         >
-        {{ partial "elements/img.html" (dict "src" .img "alt" .imgAlt "width" "" "height" "" "class" "") }}
+          <img src="https://res.cloudinary.com/dalyoko/f_auto,w_420/hedgepie/Asset_2landscape.png" alt="">
+        <!-- {{ partial "elements/img.html" (dict "src" .img "alt" .imgAlt "width" "" "height" "" "class" "") }} -->
         </div>
       </div>
     </div>

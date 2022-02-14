@@ -20,7 +20,7 @@
         class="
         mt-2
         tracking-wider
-        text-5xl
+        text-6xl
         font-extrabold
         text-gray-900
         tracking-tight
@@ -51,17 +51,19 @@
           {{ range .feature }}
           {{$color := .color}}
               <div class="flow-root flex flex-col border-2 bg-cardGrey rounded-3xl px-6 pb-8">
-                <div class="mt-6">
+                <div class="mt-2">
 
                   <div class="flex flex-wrap h-24 w-full content-center">
                       <img src="{{ .img }}" class="mx-auto" alt="">
                   </div>
                   {{ with .title }}
+                  <div class="">
                     <h3
-                      class="mt-10 ml-10 mr-10 text-4xl font-medium font-display tracking-wider text-{{$color}}"
+                      class=" ml-4 text-3xl font-medium font-display w-1/2 mx-auto tracking-wider text-{{$color}}"
                     > 
                       {{ . }}
                     </h3>
+                    </div>
                   {{ end }}
                   {{ with .description }}
 

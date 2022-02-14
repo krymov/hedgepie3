@@ -34,7 +34,7 @@ module.exports = {
         curiousBlue: "#1799DE",
         bleuDeFrance: "#1f7fde",
         darkishPink: "#de4686",
-        salomie: "#EFA906",
+        salomie: "#efa906",
         haiti: "#160E3A",
         darkElegant: "$16103A"
 
