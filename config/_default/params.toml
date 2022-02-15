@@ -23,6 +23,7 @@ buttonText="Open App"
 
 [brand]
 logo="https://res.cloudinary.com/dalyoko/dpr_auto,h_71,f_auto/hedgepie/hedgepie-logo.png"
+logo2x="https://res.cloudinary.com/dalyoko/dpr_auto,h_142,f_auto/hedgepie/hedgepie-logo.png"
 # logo="https://res.cloudinary.com/dalyoko/c_fill,f_auto,h_71,dpr_auto/hedgepie/Asset_3landscape.png"
 name="HedgePie"
 slogan = "Hedge Pie is an innovative decentralized trading platform that allows users to generate funds that others can invest in."
