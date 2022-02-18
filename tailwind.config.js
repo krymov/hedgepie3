@@ -36,13 +36,15 @@ module.exports = {
         darkishPink: "#de4686",
         salomie: "#efa906",
         haiti: "#160E3A",
+        'honolulu': "#1172a6",
         darkElegant: "$16103A"
 
       },
       backgroundImage: {
         'hero-pattern': "url('https://res.cloudinary.com/dalyoko/f_auto/hedgepie/Background.jpg')",
-        'coin-pattern': "url('https://res.cloudinary.com/dalyoko/f_auto/hedgepie/Frame_1000002141.png')",
-        'background-gradient': "url('https://res.cloudinary.com/dalyoko/f_auto/hedgepie/Background-gradient.png')"
+        'coin-pattern': `url('https://res.cloudinary.com/dalyoko/f_auto/hedgepie/Frame_1000002141.png')`,
+        'background-gradient': "url('https://res.cloudinary.com/dalyoko/f_auto/hedgepie/Background-gradient.png')",
+        'card-bg': `url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0' width='100' height='100' rx='15' /%3E%3C/svg%3E")`
       }
     },
   },

@@ -14,6 +14,15 @@
   }
   ```
 -->
+
+<script>
+  function smoothScroll(){
+    document.querySelector('#mc_embed_signup').scrollIntoView({
+        behavior: 'smooth'
+    });
+}
+
+</script>
 <div class="pb-8 sm:pb-12 lg:pb-12">
   <div class="pt-8 sm:pt-12 lg:relative lg:py-48">
     <div
@@ -39,7 +48,7 @@
           </div>
             <div class="mt-12">
               <a
-                href="#"
+                href="#mc_embed_signup"
                 class="
                   inline-flex
                   px-12
@@ -51,8 +60,11 @@
                   shadow-sm
                   text-white
                   bg-curiousBlue
-                  hover:bg-bleuDeFrance
+                  hover:bg-honolulu
+                  shadow-lg
+                  shadow-curiousBlue/50
                 "
+                x-on:click="smoothScroll()"
               >
                 <span class="arrow-white">{{.buttonText}}</span>
 
@@ -176,7 +188,7 @@
           </svg>
  -->        </div>
         <div
-          class="relative pt-32 sm:mx-auto sm:max-w-2xl sm:px-0 lg:max-w-xl  lg:pl-12"
+          class="relative pt-32 sm:mx-auto sm:max-w-2xl sm:px-0 lg:max-w-xl lg:pl-12"
         >
           <img src="https://res.cloudinary.com/dalyoko/f_auto,w_420/hedgepie/Asset_2landscape.png" alt="">
         <!-- {{ partial "elements/img.html" (dict "src" .img "alt" .imgAlt "width" "" "height" "" "class" "") }} -->

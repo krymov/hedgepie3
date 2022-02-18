@@ -43,10 +43,10 @@
               />
             </svg>
           </button>
-          <div class="hidden space-x-6 lg:block">
+          <div class="hidden space-x-6 font-semibold lg:block">
           {{ range .Site.Menus.main }}
             <a
-              class="text-base font-medium text-darkElegance hover:text-bleuDeFrance"
+              class="text-base  text-darkElegance hover:text-bleuDeFrance"
               href="{{ .URL }}"
               >{{ .Name }}</a
             >
@@ -55,7 +55,7 @@
           </div>
           <div class="ml-5 hidden lg:block">
             <a
-              href="#"
+              href="#mc_embed_signup"
               class="
                 ml-10
                 inline-block
@@ -86,7 +86,7 @@
               @click.away=" isOpen = false"
             >
               <div class="inline-flex items-center flex-col w-full">
-              <ul class="w-full">
+              <ul class="font-semibold w-full">
                 {{ range .Site.Menus.main }}
                   <li class="text-center mx-auto py-2"><a
                     href="{{ .URL }}"
@@ -96,7 +96,7 @@
                   </a></li>
                 {{ end }}
                          <li class="text-center mx-auto py-2">   <a
-              href="#"
+              href="#mc_embed_signup"
               class="
                 inline-block
                 bg-white
