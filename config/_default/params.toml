@@ -12,8 +12,8 @@ primary-button-text="Open App"
 primary-button-href="/#"
 
 [hero]
-title = "Stake. Earn up to XX% APY. Win."
-subtitle = "Get access to the highest returns in crypto and enter for a chance to win big when you invest!"
+title = "We simplified Defi, so you can earn big"
+subtitle = "Hedge Pie is the easiest way to earn big in crypto because you get access to funds created by crypto experts."
 img="https://res.cloudinary.com/dalyoko/f_auto,w_402/hedgepie/Asset_2landscape.png"
 imgAlt=""
 # img="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd20-50-17-gloy_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=c6872a7254a79eaef9ecb49793ad4067"
@@ -29,7 +29,7 @@ name="HedgePie"
 slogan = "Hedge Pie is an innovative decentralized trading platform that allows users to generate funds that others can invest in."
 
 [features]
-title="Your piece of the Pie"
+title="Choose the highest-performing fund, invest, and win big"
 subtitle="Choose your path"
 
 [[features.feature]]
@@ -37,8 +37,8 @@ img="https://res.cloudinary.com/dalyoko/w_70/hedgepie/piggylandscape_1.png"
 iconFile="icons-outline/chart-bar"
 icon=""
 color="curiousBlue"
-title="Earn Up to XX% APY"
-description="Access higher returns when you invest in funds that dominate the Hedge Pie leaderboard"
+title="Earn up to 61.83% APY"
+description="Access crazy high returns when you invest in funds created by crypto experts"
 href=""
 
 [[features.feature]]
@@ -47,7 +47,7 @@ iconFile="icons-outline/search-circle"
 icon=""
 color="salomie"
 title="Create Your Own Fund"
-description="Earn more when you combine your assets into high-yielding funds that others can invest in"
+description="Earn twice when you create your own fund that others pay a fee to invest in"
 href=""
 
 [[features.feature]]
@@ -56,7 +56,7 @@ iconFile="icons-outline/pencil-alt"
 icon=""
 color="darkishPink"
 title="Enter the Lottery"
-description="Receive automatic entries into the weekly Hedge Pie lottery when you stake using the platform"
+description="Get entered into a weekly lottery automatically when you stake using Hedge Pie"
 href=""
 
 
